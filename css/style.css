@@ -109,6 +109,7 @@ code {
 .block-second h2:hover { text-decoration: underline; }
 
 .block-contributors {background-color: #000}
+.block-contributors a { color: #000; font-size: 20px; font-weight: normal;font-style: normal; background-color: #FFF; padding: 10px 15px; border-radius: 10px; text-decoration: none; }
 .block-contributors h2{color: #FFF;}
 
 .block-resources { background-color: #FFF; }
