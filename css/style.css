@@ -100,13 +100,9 @@ code {
 .block-title .meta { font-size: 16px; color: #999; }
 .block-title .meta a { font-size: 16px; color: #333; }
 
-.block-first { background-color: #348fd4; }
-.block-first h2 { color: #FFF; }
-.block-first h2:hover { text-decoration: underline; }
-
-.block-second { background-color: #06406c; }
-.block-second h2 { color: #FFB000; }
-.block-second h2:hover { text-decoration: underline; }
+.block-dipartimento { background-color: #06406c; }
+.block-dipartimento h2 { color: #FFB000; }
+.block-dipartimento h2:hover { text-decoration: underline; }
 
 .block-contributors {background-color: #000}
 .block-contributors a { color: #000; font-size: 20px; font-weight: normal;font-style: normal; background-color: #FFF; padding: 10px 15px; border-radius: 10px; text-decoration: none; }
@@ -118,33 +114,34 @@ code {
 .block-resources ul { list-style: disc; margin: 0; padding: 0; }
 .block-resources ul li a { font-size: 24px; color: #cc4037; }
 
+.block-one { background-color: #348fd4; }
+.block-one h2 { color: #FFF; }
+.block-one h2 a { background: none; padding: 0; font-size: normal; }
+.block-one h2:hover { text-decoration: underline; }
 
-.cheatsheet {
-    display: block;
-    width: 180px;
-    height: 250px;
-    position: absolute;
-    top: 346px;
-    left: 0;
-    background: #FFF url(../img/cheatsheet.png) no-repeat;
-}
+.block-two { background-color: #06406c; }
+.block-two h2 { color: #FFF; }
+.block-two p { color: #FFF; }
 
-.announcement {
-    margin-bottom: 40px;
-}
 
-.announcement img {
-    border-radius: 4px;
-}
+.block-three { background-color: #FFF; }
+.block-three h2 { color: #000; }
 
-#carbonads {
-  display: block;
-  overflow: hidden;
-  padding: 10px;
-  background-color: #dfdfdf;
-	border-radius: 3px;
-  max-width: 300px;
-  margin: 0 auto;
-  font-family: Verdana, "Helvetica Neue", Helvetica, sans-serif;
-  line-height: 1.5;
-}
+.block-four { background-color: #4c0d09; }
+.block-four h2 { color: #d3b2af; }
+.block-four p { color: #d3b2af; }
+.block-four h2:hover { text-decoration: underline; }
+
+.block-five { background-color: #cc4037; }
+.block-five h2, .block-add p { color: #4c0d09; }
+
+.block-six { background-color: #ffc19f; }
+.block-six h2 { color: #cc4037; }
+
+.block-seven { background-color: #000; }
+.block-seven h2 { color: #FFF; }
+.block-seven p { color: #DDD; }
+
+
+.block-eight { background-color: #F2F2F2; }
+.block-eight h2 { color: #666; }
