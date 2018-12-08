@@ -100,9 +100,18 @@ code {
 .block-title .meta { font-size: 16px; color: #999; }
 .block-title .meta a { font-size: 16px; color: #333; }
 
+.block-ateneo { background-color: #348fd4; }
+.block-ateneo h2 { color: #FFF; }
+.block-ateneo h2:hover { text-decoration: underline; }
+
 .block-dipartimento { background-color: #06406c; }
 .block-dipartimento h2 { color: #FFB000; }
 .block-dipartimento h2:hover { text-decoration: underline; }
+
+.block-elezioni { background-color: #4c0d09; }
+.block-elezioni h2 { color: #d3b2af; }
+.block-elezioni p { color: #d3b2af; }
+.block-elezioni h2:hover { text-decoration: underline; }
 
 .block-contributors {background-color: #000}
 .block-contributors a { color: #000; font-size: 20px; font-weight: normal;font-style: normal; background-color: #FFF; padding: 10px 15px; border-radius: 10px; text-decoration: none; margin: 0 10px; }
@@ -118,7 +127,6 @@ code {
 .block-one { background-color: #348fd4; }
 .block-one h2 { color: #FFF; }
 .block-one h2 a { background: none; padding: 0; font-size: normal; }
-.block-one h2:hover { text-decoration: underline; }
 
 .block-two { background-color: #06406c; }
 .block-two h2 { color: #FFF; }
@@ -131,7 +139,6 @@ code {
 .block-four { background-color: #4c0d09; }
 .block-four h2 { color: #d3b2af; }
 .block-four p { color: #d3b2af; }
-.block-four h2:hover { text-decoration: underline; }
 
 .block-five { background-color: #cc4037; }
 .block-five h2, .block-add p { color: #4c0d09; }
